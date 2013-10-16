@@ -20,7 +20,7 @@
     self.masterBirdSightingList = sightingList;
     BirdSighting *sighting;
     NSDate *today = [NSDate date];
-    sighting = [[BirdSighting alloc] initWithName:@"Pigeon"
+    sighting = [[BirdSighting alloc] initWithName:@"Wake Up"
                                          location:@"Everywhere" date:today];
     [self addBirdSightingWithSighting:sighting];
 }
